@@ -1,6 +1,6 @@
 # Electronic Health Records Exploration for Multilabel Classification
 
-## _Introduction:
+## _Introduction:_
 The overall well-being of a person is an attribute of their mental and physical health. There is strong evidence that race/ethnicity and social determinants of health significantly impact outcomes for physical and mental health. An electronic health record (EHR) is the systematized collection of patient and population electronically stored health information in a digital format. Electronic health records contain valuable information about patients' medical history, diagnoses, treatments, and outcomes. By leveraging machine learning techniques, we can extract insights and make predictions from these records to improve healthcare outcomes.
 _This project aims to explore the application of machine learning techniques for multilabel classification in the context of EHRs. We can develop predictive models that assist in various healthcare tasks, such as disease diagnosis, treatment recommendation, and patient risk stratification. 
 
@@ -20,7 +20,7 @@ Data Extraction Transformation Load and Analysis workflow
 On average, there are 2.4 visits per patient. There are a total of 1892 ICDs in the dataset under study.
 Overall we have 57% male and 47% female gender in the dataset. 90% of the patient are live and 10% are dead. The dataset has a representation of 33 self-identified races, with White-race being 60% overall and the second most prevalent race is the Black/African American. 
 We identified 9 ICD_codes for cohort generation and furthers analysis. Our cohort consists of 9 ICD codes.
-	- ICD_E11: Diabetes
+- ICD_E11: Diabetes
 	- ICD_E78: Hyperlipidemia
 	- ICD_E87: Acid-Base disorder
 	- ICD_F32: Depression
@@ -32,4 +32,6 @@ We identified 9 ICD_codes for cohort generation and furthers analysis. Our cohor
 In summary we observed that the overall mean age of the patients from the Black/African American and Hispanic races is the lowest in the dataset. In general males of all races tend to experience hypertension and heart failure at a relatively younger mean age compared to their female counterparts. The female tends to be affected at a younger age with Neoplasm of any kind compared to the male population. Asian and Alaskan Native females are diagnosed with depression at a much younger age compared to all races. Black/African American male tend to have kidney failure at much younger age. 
 We observed that there is a high chance of seeing association Diabetes with Hyperlipidemia. It also associates with Heart and Kidney Failure. Hypertension tends to be correlated with Heart Failure. Diagnosis of Kidney Failure is strongly associated with comorbidity for the diagnosis of Acid Base Disorder.
 <img src="image/correlation_matrix.png" style="width:500px;"/>
+
+
 The detailed findings can be see in this [presentation](https://sites.google.com/view/smcapstoneehr/demograhics).
