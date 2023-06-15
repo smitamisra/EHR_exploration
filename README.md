@@ -35,7 +35,7 @@ We identified 9 ICD_codes for cohort generation and furthers analysis. Our cohor
 - ICD_Y92: Accidents
 - ICD_Z85: Neoplasma
 
-The detailed findings can be see in this [presentation](https://sites.google.com/view/smcapstoneehr/demograhics).
+The detailed findings can be see in this [presentation](https://sites.google.com/view/smcapstoneehr/introduction).
 
 In summary we observed that the overall mean age of the patients from the Black/African American and Hispanic races is the lowest in the dataset. In general males of all races tend to experience hypertension and heart failure at a relatively younger mean age compared to their female counterparts. The female tends to be affected at a younger age with Neoplasm of any kind compared to the male population. Asian and Alaskan Native females are diagnosed with depression at a much younger age compared to all races. Black/African American male tend to have kidney failure at much younger age. 
 We observed that there is a high chance of seeing association Diabetes with Hyperlipidemia. It also associates with Heart and Kidney Failure. Hypertension tends to be correlated with Heart Failure. Diagnosis of Kidney Failure is strongly associated with comorbidity for the diagnosis of Acid Base Disorder.
